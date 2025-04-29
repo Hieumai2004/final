@@ -44,4 +44,9 @@ cp -r testdae ~/.gazebo/models
 cp -r VisitorKidWalk ~/.gazebo/models
 ```
 
-#CHẠY MÔ PHỎNG
+#CHẠY MÔ PHỎNG slam
+roslaunch slam gazebo.launch
+mô phỏng navigation 
+Trước khi chạy cần chỉnh lại đường đãn trong file yaml trong folder map
+roslaunch slam gazebo.launch use_slam:=false
+
